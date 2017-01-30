@@ -1,0 +1,33 @@
+body {
+	background-color: #FFCC00;
+	color: #000000;
+	font-family: Georgia,Garamond,Sans-Serif;
+}
+
+nav a {
+	background-color: #DAF38E;
+	padding: 5px 10px;
+	text-decoration: none;
+	border-right: 23px solid #003366;
+}
+
+table{
+	background-color: #CC9933;
+	color: #FFFFFF;
+}
+
+table, th, td {
+	border-collapse: collapse;
+	border: 2px solid #FFFFFF;
+}
+
+th {
+	background-color: #003366;
+}
+
+h1,h2,caption {
+	background-color: #F0F0F0;
+	text-align: center;
+	color: #A4A400;
+	font-family: Century Gothic, Futura, Verdana, Sans-Serif;
+}

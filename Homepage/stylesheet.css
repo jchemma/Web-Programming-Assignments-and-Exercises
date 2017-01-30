@@ -1,0 +1,133 @@
+body{
+	background-image: url("background.jpg");
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size:cover;	
+	margin: 0;
+}
+
+/*SECTION DEFAULT DESIGN*/
+div {
+	color: #fff;
+	width: 80%;
+	margin: auto;
+}
+
+/*SECTION TITLES*/
+div h2 {
+	text-align:center;
+}
+
+/*TOP BAR*/
+.top-bar {
+	background-color: #230007;
+	width: 100%;
+	overflow:auto;
+	padding: 10px;
+	position:fixed;
+	top:0;
+}
+
+/*HEADING FOR TOP BAR*/
+.top-bar h1 {
+	float:left;
+	margin:0;
+}
+
+/*TOP BAR PAGE LINKS*/
+
+.top-bar nav {
+	float: right;
+	margin-right: 20px;
+}
+.top-bar a {
+	background-color: #A40606;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*ABOUT*/
+.about {
+	background-color: #D7CF07;
+	overflow:auto;
+	margin-top: 90px;
+	margin-bottom: 20px;
+	padding: 50px 0px;
+}
+
+.about img {
+	border-radius: 50%;
+	width: 75%;
+	padding: 10px;
+	display: block;
+	margin: auto;
+}
+
+.about div {
+	width: 40%; /* as @passatgt mentioned in the comment, for the older browsers fallback */
+	float: left;
+}
+
+.about .left {
+	width: 20%;
+}
+
+.about .right ul {
+	list-style: none;
+}
+
+.about .right ul h4 {
+	text-align: center;
+}
+
+/*ASSIGNMENTS*/
+.assignments {
+	text-align:center;
+	background-color: #5A0002;
+	padding: 50px 0px;
+}
+
+.assignments table {
+	margin: 0px auto;
+}
+
+.assignments th, .assignments td {
+	padding: 0 20px;
+	margin: 20px;
+}
+
+.assignments table tr:nth-child(odd) {
+	background-color: #008B8B;
+}
+
+.assignments table tr:nth-child(even) {
+	background-color: #000;
+}
+
+/*CONTACTS*/
+.contact {
+	background-color: #A40606;
+	overflow: auto;
+	margin-top: 20px;
+	padding: 50px 0px;
+	text-align: center;
+}
+
+/*LINKS*/
+.links{
+	background-color: #5A0002;
+	overflow:auto;
+	margin-top: 20px;
+	padding: 20px 0px;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.links img {
+	width: 70px;
+	margin: 0 20px;
+}
